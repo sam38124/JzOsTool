@@ -1,0 +1,4 @@
+framework module JzOsTool {
+  header "JzOsTool-Swift.h"
+  requires objc
+}
