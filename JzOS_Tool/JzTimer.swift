@@ -7,19 +7,19 @@
 //
 
 import Foundation
-public class JzTimer{
+open class JzTimer{
     var pastTime = Date().timeIntervalSince1970
-    public func GetTime(_ timeStamp: Double)-> Double{
+    open func GetTime(_ timeStamp: Double)-> Double{
         let currentTime = Date().timeIntervalSince1970
         let reduceTime : TimeInterval = currentTime - timeStamp
         return reduceTime
     }
     
-    public  func start()->JzTimer{
+    open  func zeroing()->JzTimer{
         pastTime = Date().timeIntervalSince1970
         return self
     }
-    public func stop()->Double{
+    open func stop()->Double{
         return GetTime(pastTime)
     }
 }

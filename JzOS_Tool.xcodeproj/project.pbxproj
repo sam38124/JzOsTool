@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CA0D687323F50CD1002A22AC /* JzOS_Tool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JzOS_Tool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0D687323F50CD1002A22AC /* JzOsTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JzOsTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0D687623F50CD1002A22AC /* JzOS_Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JzOS_Tool.h; sourceTree = "<group>"; };
 		CA0D687723F50CD1002A22AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA0D687E23F50D27002A22AC /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		CA0D687423F50CD1002A22AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CA0D687323F50CD1002A22AC /* JzOS_Tool.framework */,
+				CA0D687323F50CD1002A22AC /* JzOsTool.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +96,7 @@
 			);
 			name = JzOS_Tool;
 			productName = JzOS_Tool;
-			productReference = CA0D687323F50CD1002A22AC /* JzOS_Tool.framework */;
+			productReference = CA0D687323F50CD1002A22AC /* JzOsTool.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -296,8 +296,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Jianzhi.wang.JzOS-Tool";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = Jianzhi.wang.JzOsTool;
+				PRODUCT_NAME = JzOsTool;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -323,8 +323,8 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Jianzhi.wang.JzOS-Tool";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = Jianzhi.wang.JzOsTool;
+				PRODUCT_NAME = JzOsTool;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

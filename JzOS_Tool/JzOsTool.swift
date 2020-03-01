@@ -8,6 +8,12 @@
 
 import Foundation
 public class JzOSTool{
-    public static var http=Http()
-    public static var timer=JzTimer()
+    //http工具類                                               
+    public static func http()->Http{
+        return Http()
+    }
+    //碼表
+    public static func timer()->JzTimer{
+           return JzTimer()
+       }
 }
